@@ -5,16 +5,16 @@ import classes from "./Header.module.css";
 
 const Header = () => {
   const dispatch = useDispatch();
-  const isLoggedIn = useSelector((state) => state.auth.isAuthed);
+  const isAuthed = useSelector((state) => state.auth.isAuthed);
 
   const logOutHandler = () => {
     dispatch(authActions.logout());
   };
 
   return (
-    isLoggedIn && (
-      <header className={classes.header}>
-        <h1>Redux Auth</h1>
+    <header className={classes.header}>
+      <h1>Redux Auth</h1>
+      {isAuthed && (
         <nav>
           <ul>
             <li>
@@ -28,8 +28,8 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-      </header>
-    )
+      )}
+    </header>
   );
 };
 
