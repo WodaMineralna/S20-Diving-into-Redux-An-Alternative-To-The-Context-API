@@ -5,13 +5,15 @@ Practice code for Section 20 - Diving into Redux (An Alternative to the Context 
 This project covers
 - Redux store and slices with Redux Toolkit
 - Action creators and immutable state updates
-Project type
-- Based on a guided project
+  
+# Project type
+Implemented as part of a guided course project, with additional features and customizations added independently.
 
 ## Tech Stack
 - React
 - JavaScript (ES6+)
 - Build tool - Create React App
+- Redux
 - Redux Toolkit
 ## How to Run
 
