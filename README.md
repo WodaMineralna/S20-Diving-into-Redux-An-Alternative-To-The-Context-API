@@ -2,7 +2,7 @@
 
 Practice code for Section 20 - Diving into Redux (An Alternative to the Context API), part of the course "React - The Complete Guide (incl. Redux)" by Maximilian Schwarzmüller.
 
-This project covers
+This project covers:
 - Redux store and slices with Redux Toolkit
 - Action creators and immutable state updates
   
